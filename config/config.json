@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres.gfhnevphfwfrvfonorep",
+    "password": "unicesmag_2025",
+    "database": "postgres",
+    "host": "aws-0-us-west-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "port": "6543"
+  },
+  "test": {
+    "username": "postgres.gfhnevphfwfrvfonorep",
+    "password": "unicesmag_2025",
+    "database": "postgres",
+    "host": "aws-0-us-west-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "port": "6543"
+  },
+  "production": {
+    "username": "postgres.gfhnevphfwfrvfonorep",
+    "password": "unicesmag_2025",
+    "database": "postgres",
+    "host": "aws-0-us-west-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "port": "6543"
+  }
+}
