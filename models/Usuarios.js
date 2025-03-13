@@ -11,7 +11,7 @@ module.exports = (sequelize) => {
       autoIncrement: true,
     },
     nombre: {
-      type: DataTypes.CHAR,
+      type: DataTypes.TEXT,
       allowNull: false,
       defaultValue: null,
       comment: null,
@@ -20,7 +20,7 @@ module.exports = (sequelize) => {
       autoIncrement: false,
     },
     apellido: {
-      type: DataTypes.CHAR,
+      type: DataTypes.TEXT,
       allowNull: false,
       defaultValue: null,
       comment: null,
@@ -38,7 +38,7 @@ module.exports = (sequelize) => {
       autoIncrement: false,
     },
     email: {
-      type: DataTypes.CHAR,
+      type: DataTypes.TEXT,
       allowNull: false,
       defaultValue: null,
       comment: null,
@@ -47,7 +47,7 @@ module.exports = (sequelize) => {
       autoIncrement: false,
     },
     password: {
-      type: DataTypes.CHAR,
+      type: DataTypes.TEXT,
       allowNull: false,
       defaultValue: null,
       comment: null,
